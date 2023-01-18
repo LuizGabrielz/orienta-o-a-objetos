@@ -1,0 +1,24 @@
+Construtores:
+É uma operação especial da classe, que executa no momento da instanciação do objeto
+
+Uso comuns:
+- Iniciar valores dos atributos
+- Permitir ou obrigar que o objeto receba dados / dependencias no momento de sua
+instanciação (injeção de dependencias)
+
+Se um construtor customizado não for especificado, a classe disponibiliza o construtor padrão:
+
+- Produto p = new Produto(); 
+
+- É possível especificar mais de um construtor na mesma classe (sobrecarga)
+
+Proposta de melhoria
+- Quando executamos o comando abaixo, instanciamis um produto "p" com seus
+atributos "vazio":
+
+p = new Produto(); p -> Nome: numm | Preco: 0.0 | Quantidade: 0
+
+Entretanto, faz sentido um produto que não tem nome? Faz sentido um produto que não tem preço?
+
+Com o intuito de evitar a existencia de produtos sem nome e sem preço, é possivel fazer com que seja "obrigatória" a iniciação desses valores?
+ 

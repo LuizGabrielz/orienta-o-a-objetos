@@ -1,0 +1,54 @@
+Encapsulamento é um principio que consiste em esconder detalhes de implementação de um componente, expondo apenas operações seguras e que o matenha em um estado consistente.
+
+Regra de ouro: o objeto deve sempre estar em um estado consistente, e a própia classe deve garantir isso.
+
+Opção 1: implementação manual
+
+- Todo atributo é definido como private
+- Implementa-se métodos Get e Set para cada atributo, conforme regras de negócio
+
+- Nota: não é usual na plataforma C#
+
+static void Main(string[] args) {
+    Produto p = new Produto("TV", 500.00, 10);
+
+    Console.WriteLine(p.GetNome());
+    p.SetNome("TV" 4K); Mudou o nome
+    Console.WriteLine(p.GetPreco()); não pode alterar o preço
+
+}
+
+private string _nome;
+private double _preco;
+private int _quantidade; Agora ela é privada
+
+public Produto() {
+}
+
+public Produto(String nome, double preco, int quantidade) {
+    _nome = nome;
+    _preco = preco;
+    _quantidade = quantidade;
+}
+
+public string GetNome() {
+    return _nome;
+}
+
+public void SetNome(String nome) { void pq não vai retornar nada, só mudar o nome
+    if (nome != null && nome.Length > 1) {
+        _nome = nome;
+    }
+}
+
+public double GetPreco() {
+    return _preco;
+}
+
+public int GetQuantidade() {
+    return _quantidade;
+}
+
+public double ValorTotalEmEstoque() {
+    return Preco * Quantidade;
+}

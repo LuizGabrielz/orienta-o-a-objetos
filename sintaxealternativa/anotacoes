@@ -1,0 +1,18 @@
+/*Produto p = {
+    Nome = "TV",
+    Preco = 900.0,
+    Quantidade = 0
+};
+
+voce pode indicar com o abre e fecha () ou sem o () 
+
+Produto p2 = new Produto() {
+    Nome = "TV",
+    Preco = 900.0,
+    Quantidade = 0
+};
+
+
+Produto p3 = new Produto {Nome = "TV", Preco = 500.00, Quantidade = 20 };
+ja coloca o valor do produto 
+*/

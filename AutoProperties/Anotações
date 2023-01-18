@@ -1,0 +1,10 @@
+Auto Properties
+
+Propriedades autoimplementadas
+É uma forma simplificada de se declarar propriedades que não necessitam
+lógicas particulares para as operações get e set.
+
+public double Preco { get; private set; }
+
+public double Preco {get; private set; }
+public int Quantidade { get; private set; } 

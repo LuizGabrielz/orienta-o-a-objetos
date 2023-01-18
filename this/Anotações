@@ -1,0 +1,42 @@
+Anotações do This
+A palavra this é uma referencia para o própio objeto
+
+Usos comuns: 
+-Diferenciar atributos de variáveis locais (java)
+- Referenciar outro construtor em um construtor
+- Passar o própio objeto como argumento na chamada de um método ou construtor
+
+Referenciar outro construtor em um construtor
+
+using System.Globalozation;
+
+namespace Course {
+  Class Produto{
+
+    public string Nome;
+    public double Preco;
+    public int Quantidade;
+
+    public Produto() {
+      Quantidade = 0;
+    }
+    public Produto(String nome, double, preco) : this() {
+      Nome = nome;
+      Preco = preco;
+    }
+    public Produto(string nome, double preco, int quantidade) : this() {
+      Nome = nome;
+      Preco = preco;
+    }
+    public Produto(string nome, double preco, int quantidade) : this(nome, preco) {
+      Quantidade = quantidade;
+    }
+  }
+}
+
+Passar o próprio objeto como argumento na chamada de um método ou construtor
+
+class ChessMatch {
+
+  PlaceNewPiece('e', 1, new King(board, Color.White, this));
+}

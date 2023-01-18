@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "produtoemestoque/1.0.0": {
+        "runtime": {
+          "produtoemestoque.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "produtoemestoque/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

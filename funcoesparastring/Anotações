@@ -1,0 +1,10 @@
+Checklist
+- Formatar: ToLower(), ToUpper(), Trim()
+- Buscar: IndexOf, LastIndexOf
+- Recortar: Substring(inicio), Substring(inicio, tamanho)
+- Substituir: Replace(char, char), Replace(string, string)
+- String.IsNullOrEmpty(str), String.IsNullOrWhiteSpare(str)
+str.Split('') recortar uma string com base em um caracter
+Conversão para numero: int x =int.Parse(str), int x =Convert.ToInt32(str)
+Conversão de número: str = x.ToString(), str =x.ToString("C"), str = 
+x.ToString("C3"), str = x.ToString("F2") 

@@ -1,0 +1,16 @@
+Listas 
+- Lista é uma estrutura de dados:
+Homogene(dados do mesmo tipo)
+Ordenada (elementos acessados por meio de posições)
+Inicia vazia, e seus elementos são alocados sob demanda
+Cada elemento ocupa um nó (ou nodo) da lista
+
+- Classe: List (pertence a clase list e o namespace abaixo)
+Namespace: System.Collection.Generic
+
+Vantagens: 
+Tamanho variável
+Facilidade para se realizar inserões e deleções
+
+- Desvantagens:
+Acesso sequencial aos elementos  
