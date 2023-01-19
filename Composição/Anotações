@@ -1,0 +1,16 @@
+Composição:
+
+- É um tipo de associação que permite que um objeto cotenha outro
+
+- Relação "tem-um" ou "tem-vários"
+
+- Vantagens:
+Organização: divisão de responsabilidades. cada classe vai ter suas responsabilidades.
+
+Coesão: Cada objeto é responsavel por uma unica coisa. vc não deve misturar muitas coisas no mesmo lugar.
+
+Flexibilidade: vc trabalhar com uma coisa que esta dividida em partes é mais flexivel do que se vc fosse trabalhar com uma coisa que está muito grande ou mal dividida.
+
+Recurso: O mesmo objeto pode ser reaproveitado em outro lugar
+
+- Nota: embora o símbolo UML para composição (todo-parte) seja o diamante preto, neste contexto estamos chamando de composição qualquer associação tipo "tem-um" e "tem-vários".

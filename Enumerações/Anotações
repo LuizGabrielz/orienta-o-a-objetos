@@ -1,0 +1,20 @@
+Enumerações
+- É um tipo especial que serve para especificar de forma literal um conjunto de constantes relacionadas
+
+- Palavra chave em C#: enum
+- Nota: enum é um tipo valor
+
+- Vantagem: melhor semantica, código mais legível e auxiliado pelo compilador
+
+class Order {
+    public int Id {get; set; }
+    public DateTime Moment { get; set; }
+    public OrderStatus Status { get; set; }
+}
+
+enum OrderStatus : int {
+    PendingPayment = 0,
+    Processing = 1,
+    Shipped = 2,
+    Delivered = 3
+}

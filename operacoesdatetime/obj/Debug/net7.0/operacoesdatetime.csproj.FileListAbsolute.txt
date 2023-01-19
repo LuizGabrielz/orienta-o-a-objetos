@@ -1,0 +1,5 @@
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\operacoesdatetime\obj\Debug\net7.0\operacoesdatetime.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\operacoesdatetime\obj\Debug\net7.0\operacoesdatetime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\operacoesdatetime\obj\Debug\net7.0\operacoesdatetime.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\operacoesdatetime\obj\Debug\net7.0\operacoesdatetime.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\operacoesdatetime\obj\Debug\net7.0\operacoesdatetime.csproj.CoreCompileInputs.cache

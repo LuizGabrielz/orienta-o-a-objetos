@@ -10,7 +10,7 @@ namespace Course {
 
             Console.WriteLine(x);
             Console.WriteLine(y);
-            Consolte.WriteLine(z);
+            Console.WriteLine(z);
         }
     }
 } 
