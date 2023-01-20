@@ -1,19 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace Course.Entities
 {
     public class Department
     {
-        public string Name { get; set; }
+        public string Name { get; set; } // Propiedade string name
 
-        public Departament()
+        public Department() // Construtor padrão 
         {
 
         }
 
-        public Departament(string name)
+        public Department(string name) // Construtor que recebe o nome como paramentro de entrada no construtor
         {
             Name = name;
         }

@@ -1,0 +1,17 @@
+namespace Course.Entities
+{
+    class Coment
+    {
+      public string Text { get; set; }
+
+      public Coment() // Consutor
+      {
+
+      }
+
+      public Coment(string text) // Consutor com argumentos
+      {
+        Text = text;
+      }
+    }
+}

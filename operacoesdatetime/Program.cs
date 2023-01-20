@@ -6,7 +6,7 @@ namespace Course {
 
             DateTime d = new DateTime(2001, 8, 15, 13, 45, 58, 275);
 
-            DateTime d = new DateTime(2000, 10, 15);
+            DateTime d3 = new DateTime(2000, 10, 15);
 
             DateTime d2 = new DateTime(2000, 10, 18);
 
