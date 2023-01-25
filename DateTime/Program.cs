@@ -4,7 +4,7 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
-           // DateTime d1 = DateTime.Now; // Devolve o instante atual do sistema
+            //DateTime d1 = DateTime.Now; // Devolve o instante atual do sistema
             //Console.WriteLine(d1);
 
            /* DateTime d1 = new DateTime(2018, 11, 25);
@@ -29,4 +29,4 @@ namespace Course {
             Console.WriteLine(d1);
         }
     }
-}
+} 

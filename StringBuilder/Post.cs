@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Text; // Tem que manter aqui em cima pra fazer o StringBuilder
 
 namespace Course.Entities
 {
@@ -10,9 +10,9 @@ namespace Course.Entities
         public string Title { get; set; }
         public string Content { get; set; }
         public int Likes { get; set; }
-        public List<Comment> Comments { get; set; } = new List<Comment>(); // Para muitos que vai receber uma lista de comentario
+        public List<Comment> Comments { get; set; } = new List<Comment>(); // Para muitos que vai receber uma lista de comentario. Colocar new para garatir que a lista vai ser instanciada.
 
-        public Post()
+        public Post() // Consultor padrão que não recebe argumentos
         {   
         }
 
@@ -28,7 +28,7 @@ namespace Course.Entities
         {
             Comments.Add(comment);
         }
-
+        // Quando temos uma operação "tem muitos" é comum vc colocar um add e remover objetos
         public void RemoveComment(Comment comment) // Operação para remover um comentário na lista
         {
             Comments.Add(comment);
@@ -48,6 +48,6 @@ namespace Course.Entities
                 sb.AppendLine(c.Text);
             }
             return sb.ToString();
-        }
+        } // Várias operações para montar o texto
     }
 }

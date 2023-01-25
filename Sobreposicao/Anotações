@@ -1,0 +1,34 @@
+Sobreposição ou sobescrita
+
+- É a implementação de um método de uma superclasse na subclasse
+
+- Para que um método comum (não abstrato) possa ser sobreposto, deve ser incluido nele o prefixo "virtual"
+
+- Ao sobrescrever um método, devemos incluir nele o prefixo "override"
+
+- Suponha as seguintes regras para saque:
+- Conta comum: é cobrada uma taxa no valor de 5.00.
+- Conta poupança: não é cobrada taxa.
+
+Como resolver isso?
+
+Resposta: sobrescrevendo o método withdraw na subclasse SavingsAccount
+
+Account:
+public virtual void Withdraw(double amount) { Na classe account eu vou ter que colocar o virtual
+    Balance -= amount + 5.0;
+}
+
+SavingAccount:
+public override void Withdraw(double amount) {  Quando eu for subscrever, eu vou ter que colocar o prefixo override
+    Balance -= amount;
+}
+
+Palavra base
+-É possivel chamar a implementação da superclasse usando a palavra base.
+
+Exemplo: suponha que a regra para saque para conta poupança seja realizar o saque normalmente da superclasse (Account), e depois descontar mais 2.0.
+
+public override void Withdraw(double amount) {
+    base.Withdraw(amount);
+    Balance -= 2.0;

@@ -1,0 +1,28 @@
+Herança:
+
+- É um tipo de associação que permite que uma classe herde dados e comportamentos de outra
+
+- Definições importantes
+
+-  Vantagens
+Reuso
+Polimorfismo
+
+- Sintaxe
+: (estende) sintaxe são : e le-se estende 
+base (referencia para a superclasse)
+
+Herança permite o reuso de atributos e métodos (dados e comportamento)
+
+vc esta reutilizando os dados e métodos de outra classe de modo que vc vai somente precisar acrescentar os atributos e métodos da outra classe
+
+Definições importantes
+- Relação "é-um" é uma conta só que com algo mais 
+
+- Generalização/ especialização. Generalização siginifica que ela é genérica. A outra conta é especializada, ela tem outros atributos e métodos
+
+- Superclasse (classe base) / subclasse (classe derivada). Superclasse é justamente a classe genérica. A sublcasse é a classe especializada que deriva da superclasse
+
+- Herança / extensão. Extende oque tem na classe comum. Ela vai ter tudo que existe em uma classe comum e mais algumas coisas.
+
+- Herança é uma associação entre classes (e não entre objetos). Vai instanciar esse unico objeto e esse unico objeto vai ter todos os dados e métodos

@@ -1,0 +1,12 @@
+Cheklist
+- Upcasting
+- Casting da subclasse para superclasse - convertendo um objeto do tipo subclasse para superclasse 
+
+- Uso comum: polimorfismo
+
+Downcasting
+- Casting da superclasse para subclasse - convertendo da superclasse para a subclasse
+
+- Palavra as
+- Palavra is
+- Uso comum: métodos que recebem parametros genéricos(ex: Equals) Esse método recebe um objeto do tipo objet, então temos que fazer um downcast do tipo especifico que a gente quer 
