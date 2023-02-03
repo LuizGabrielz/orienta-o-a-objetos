@@ -3,3 +3,13 @@ C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\obj\Debug
 C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\obj\Debug\net7.0\Exercicio.AssemblyInfoInputs.cache
 C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\obj\Debug\net7.0\Exercicio.AssemblyInfo.cs
 C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\obj\Debug\net7.0\Exercicio.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\bin\Debug\net7.0\Exercicio.exe
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\bin\Debug\net7.0\Exercicio.deps.json
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\bin\Debug\net7.0\Exercicio.runtimeconfig.json
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\bin\Debug\net7.0\Exercicio.dll
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\bin\Debug\net7.0\Exercicio.pdb
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\obj\Debug\net7.0\Exercicio.dll
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\obj\Debug\net7.0\refint\Exercicio.dll
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\obj\Debug\net7.0\Exercicio.pdb
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\obj\Debug\net7.0\Exercicio.genruntimeconfig.cache
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicio\obj\Debug\net7.0\ref\Exercicio.dll

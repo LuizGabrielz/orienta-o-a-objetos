@@ -1,6 +1,6 @@
 namespace Course.Entities
 {
-    class OutsourcedEmployee : Employee
+    class OutsourcedEmployee : Employee // Essa classe herda ou estende 
     {
         public double AdditionalCharge {get; set; }
 
@@ -10,7 +10,7 @@ namespace Course.Entities
         }
 
         public OutsourcedEmployee(string name, int hours, double ValuePerHour, double additionalCharge)
-            : base(name, hours, ValuePerHour)
+            : base(name, hours, ValuePerHour) // Aproveitar/puxar os tres argumentos de outra classe
             {
                 AdditionalCharge = additionalCharge;
             }

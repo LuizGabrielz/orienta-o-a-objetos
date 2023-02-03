@@ -1,0 +1,12 @@
+Herdar vs. cumprir contrato
+
+Aspectos em comum entre herança e interfaces
+
+- Relação é-um
+- Generalização/especialização
+- Polimorfismo
+
+Diferença fundamental
+
+Herança => reuso de informações e comportamentos
+Interface =>  o objetivo principal dela é ocontrato a ser cumprido

@@ -5,7 +5,7 @@ namespace Course.Entities
         public string Name { get; set; }
         public int Hours {get; set; }
         public double ValuePerHour { get; set; }
-
+        // Atributos dessa classe.
         public Employee()
         {
 

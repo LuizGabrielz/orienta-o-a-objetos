@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "metodosabstratos/1.0.0": {
+        "runtime": {
+          "metodosabstratos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "metodosabstratos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

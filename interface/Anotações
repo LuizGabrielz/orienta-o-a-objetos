@@ -1,0 +1,26 @@
+Interface 
+
+Interface é um tipo que define um conjunto de operações que uma classe (ou struct) deve implementar.
+
+- A interface estabelece um contrato que a classe (ou struct) deve cumprir.
+
+Pra que interfaces?
+-Para criar sistemas com baixo acomplamento e flexíveis.
+
+interface Ishape {
+
+    double Area();
+    double Perimeter();
+}
+
+Inversão de controle
+
+- Inversão de controle: Padrão de desenvolvimento que consiste em retirar da classe a responsabilidade de instanciar suas dependencias
+
+Injeção de dependencia
+
+- É uma forma de realizar a inversão de controle: um componente externo instancia a dependencia, que é então injetada no objeto "pai". Pode ser implementada de várias formas:
+
+- CONSTRUTOR
+- Objeto de instanciação (builder / factory)
+- Container / framework
