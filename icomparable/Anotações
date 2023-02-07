@@ -1,0 +1,4 @@
+Interface Comparable
+
+- Padrão utilizado pela linguagem para se comparar um objeto com outro
+- Se eu quiser definir que um objeto de determinado tipo é comparável com outro, esse tipo vai ter que implementar a interface com Comparable.
