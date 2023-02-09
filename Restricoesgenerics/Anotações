@@ -1,0 +1,8 @@
+Restrições possíveis
+
+- where T: struct
+- where T: class
+- where T: unmanaged
+- where T: new()
+- where T: <base type name>
+- where T: U
