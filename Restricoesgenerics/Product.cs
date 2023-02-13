@@ -21,12 +21,12 @@ namespace Course.Entities {
                 + Price.ToString("F2", CultureInfo.InvariantCulture);
         }
 
-        public int CompareTo(object obj) {
-            if (!(obj is Product)) {
+        public int CompareTo(object obj) { // Métodos para incrementar
+            if (!(obj is Product)) { // Testar se esse objeto é um objeto da classe Product
                 throw new ArgumentException("Comparing erro: argument is not a Product");
-            }
+            } // Se passar desse if com certeza vai ser produto
             Product other = obj as Product;
-            return Price.CompareTo(other.Price);
+            return Price.CompareTo(other.Price); // Comparar o preço do produto com o other 
         }
     }
 }
