@@ -1,0 +1,9 @@
+Coleções Hash são aquelas que indexam seus elementos com base em um valor Hash
+
+Como as coleções Hash testam igualdade?
+
+- Se GetHashCode e Equals estiverem implementados: Primeiro GetHashCode. Se der igual, usa Equals para confirmar.
+
+- Se GetHashCode e Equals Não estiverem implementados:
+- Tipos referencia: compara as referencias dos objetos
+- Tipos valor: compara os valores dos atributos 

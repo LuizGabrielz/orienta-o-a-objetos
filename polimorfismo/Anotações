@@ -34,4 +34,4 @@ acc1 vai ter 1020 | Alex | 500.0
 acc2 vai ter os atributos mas vai ter um atributo a mais que ele herda
 
 Polimorfismo são variáveis do mesmo tipo instanciadas com objetos diferentes vão ter comportamentos 
-diferentes 
+diferentes;

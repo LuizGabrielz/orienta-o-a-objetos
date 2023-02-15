@@ -1,0 +1,5 @@
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicioconjunto\obj\Debug\net7.0\Exercicioconjunto.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicioconjunto\obj\Debug\net7.0\Exercicioconjunto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicioconjunto\obj\Debug\net7.0\Exercicioconjunto.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicioconjunto\obj\Debug\net7.0\Exercicioconjunto.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\Programação Orientada a Objetos\Exercicioconjunto\obj\Debug\net7.0\Exercicioconjunto.csproj.CoreCompileInputs.cache
