@@ -24,3 +24,5 @@ Injeção de dependencia
 - CONSTRUTOR
 - Objeto de instanciação (builder / factory)
 - Container / framework
+
+Toda a interface a gente coloca com "I" maiusculo pra facilitar que aquele tipo é uma interface

@@ -7,10 +7,10 @@ namespace Course {
         public double Preco;
         public int Quantidade;
 
-        public Produto(string nome, double preco, int quantidade) {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = quantidade;
+        public Produto(string nome, double preco, int quantidade) { // Construtor tem que ter o mesmo nome da classe
+            Nome = nome; // Nome em maiusculo recebe o minusculos   
+            Preco = preco; // Preco maiusculo recebe minusculo
+            Quantidade = quantidade; // Quantidade maiusculo recebe quantidade minusculo
         }
 
         public double ValorTotalEmEstoque() {

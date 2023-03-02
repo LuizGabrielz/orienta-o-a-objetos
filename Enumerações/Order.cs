@@ -1,5 +1,5 @@
 using System;
-using Course.Entities.Enums;
+using Course.Entities.Enums; // Para ele enxergar o Enums
 
 namespace Course.Entities
 {

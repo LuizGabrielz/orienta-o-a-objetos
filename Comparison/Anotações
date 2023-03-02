@@ -1,0 +1,16 @@
+Uma experiencia com Comparison<T>
+
+Comparison<T>(System)
+
+public delegate int Comparison<in T>(T x, T y);
+
+Método Sort com Comparison<T> da classe List
+
+Resumo:
+
+public void Sort(Comparison<T> comparison)
+
+- Referencia simples de método como parametro
+- Referencia de método atribuido a uma variável tipo delegate
+- Expressão lambda atribuida a uma variável tipo delegate
+- Expressão lambda inline

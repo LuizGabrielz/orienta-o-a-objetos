@@ -1,6 +1,7 @@
-﻿using Course.Entities;
+﻿using System;
+using Course.Entities;
 using Course.Entities.Enums;
-using System;
+
 
 namespace Course {
     class Program {
@@ -14,12 +15,12 @@ namespace Course {
 
             Console.WriteLine(order);
 
-           // string txt = OrderStatus.PendingPayment.ToString(); // Imprimiu o valor de PendingPayment em String
+            string txt = OrderStatus.PendingPayment.ToString(); // Imprimiu o valor de PendingPayment em String
 
-           // OrderStatus os = Enum.Parse<OrderStatus>("Delivered"); // Conversão de string para tipo enumerado
+           OrderStatus os = Enum.Parse<OrderStatus>("Delivered"); // Conversão de string para tipo enumerado
 
-           // Console.WriteLine(os);
-           // Console.WriteLine(txt);
+            Console.WriteLine(os);
+            Console.WriteLine(txt);
         }
     }
 }
